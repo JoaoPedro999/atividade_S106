@@ -61,6 +61,15 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 
+
+  containerRodape: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    width: '100%',
+    height: 75,
+  },
+
   containerRodape: {
     flexDirection: "row",
     alignItems: "center",
@@ -98,6 +107,7 @@ const styles = StyleSheet.create({
     height: 50,
     bottom: 400,
   },
+
   boxcentral: {
     width: 300,
     height: 200,
@@ -105,7 +115,23 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     padding: 15,
     borderRadius: 20,
-  }
+  },
+  Circulo: {
+    width: 300,
+    height: 300,
+    borderRadius: 145,
+    borderWidth: 10,
+    borderColor: 'chartreuse',
+  },
+
+  descricao: {
+    fontSize: 23,
+    fontStyle: 'italic',
+    borderBottomWidth: 2,
+    borderColor: 'black',
+
+  },
 });
+
 
 export default styles;

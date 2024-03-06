@@ -3,16 +3,13 @@ import React from 'react';
 import { View, Text, TextInput } from 'react-native';
 
 // Importa os estilos definidos externamente no arquivo stylescomponent
-import styles from '../styles/styles';
-import Componenttext from './componenttext';
+import styles from '../../styles/styles';
 
 // Define um componente funcional chamado Componentform
-const Componentform = () => {
+const Contato= () => {
   return (
     // Componente View representa um contêiner para organizar outros componentes
     <View style={styles.body}>
-       <Componenttext/>
-
       {/* Componente View para agrupar os TextInput relacionados ao formulário */}
       <View>
         {/* TextInput para o nome do usuário com estilo definido em styles.inputname */}
@@ -25,8 +22,7 @@ const Componentform = () => {
              e configurado para ocultar o texto digitado (senha) */}
         <TextInput
           style={styles.inputname}
-          placeholder="Digite sua Senha"
-          secureTextEntry={true}
+          placeholder="Mensagem"
         />
       </View>
     </View>
@@ -34,4 +30,4 @@ const Componentform = () => {
 };
 
 // Exporta o componente para ser utilizado em outros arquivos
-export default Componentform;
+export default Contato;
