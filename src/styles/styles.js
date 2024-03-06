@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
                 width: 150,
               },
               imagelogo: {
-                width: 65,
-                height:55,
+                width: 125,
+                height:32,
               },
               Buttons: {
                 flexDirection: 'row',

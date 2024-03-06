@@ -1,17 +1,19 @@
-import { Button, Text, View } from "react-native-web";
+import { View, ImageBackground } from "react-native";
 // Importa estilos definidos externamente no arquivo stylescomponent
 import styles from "../styles/stylescomponent";
 import HeaderPrincipal from "../components/header";
-
+import Rodape from "../components/rodape";
+import ContainerHome from "../components/corpohome";
 
 function Home() {
 
    return (
-      // Componente View representa um contêiner para organizar outros componentes
-      <View style={styles.body}>
-        <HeaderPrincipal/>
-     {/* Texto exibido na tela com o estilo definido em styles.titulo */}
-     <Text style={styles.titulo}>Home</Text>
+    <View style={styles.container}>
+      <ImageBackground source={require('../assets/images/fundoHome.jpg')} style={styles.body} >
+      <HeaderPrincipal/>
+      <ContainerHome/>
+      <Rodape/>
+      </ImageBackground>
       </View>
         );
   }
