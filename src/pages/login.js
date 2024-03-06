@@ -21,12 +21,6 @@ import ImageBackgroundComponent from "../components/ImageBackgroundComponent";
 
 // Função principal do aplicativo
 export default function App() {
-
-  // Função btn() é chamada quando o botão é pressionado, exibindo um alerta simples
-  btn = () => {
-    alert("Logado com Sucesso");
-  };
-
   return (
     // Componente View representa o contêiner principal do aplicativo com o estilo definido em styles.container
     <View style={styles.container}>
