@@ -1,6 +1,5 @@
 import { Text, View } from "react-native-web";
 // Importa estilos definidos externamente no arquivo stylescomponent
-import styles from "../styles/stylescomponent";
 import { useNavigation } from "@react-navigation/native";
 
 

@@ -3,8 +3,7 @@ import React from 'react';
 import { View, Text, TextInput } from 'react-native';
 
 // Importa os estilos definidos externamente no arquivo stylescomponent
-import styles from '../styles/stylescomponent';
-import Componenttext from './componenttext';
+import styles from '../styles/styles';
 
 // Define um componente funcional chamado Componentform
 const Contato= () => {

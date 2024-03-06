@@ -1,6 +1,6 @@
 import { View, ImageBackground } from "react-native";
 // Importa estilos definidos externamente no arquivo stylescomponent
-import styles from "../styles/stylescomponent";
+import styles from "../styles/styles";
 import HeaderPrincipal from "../components/header";
 import Rodape from "../components/rodape";
 import ContainerHome from "../components/corpohome";

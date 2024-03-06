@@ -11,7 +11,7 @@ import {
 } from "react-native";
 
 // Importa estilos definidos externamente no arquivo stylescomponent
-import styles from "../styles/stylescomponent";
+import styles from "../styles/styles";
 
 // Importa os componentes personalizados do seu aplicativo
 import ComponentForm from "../components/component_form";
