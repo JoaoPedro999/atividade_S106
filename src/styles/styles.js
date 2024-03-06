@@ -61,36 +61,15 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 
-<<<<<<< HEAD
-                containerRodape: {
-                    flexDirection: 'row',
-                    alignItems: 'center',
-                    justifyContent: 'flex-start',
-                    width: '100%',
-                    height:75,
-                  },
-<<<<<<< Updated upstream
-                  Circulo: {
-                    width: 300,
-                    height: 300,
-                    borderRadius: 145,
-                    borderWidth: 10,
-                    borderColor: 'chartreuse',
-                  },
-                
-                  descricao: {
-                    fontSize: 23,
-                    fontStyle: 'italic',
-                    borderBottomWidth: 2,
-                    borderColor: 'black',
-                
-                  }
-=======
 
-                  
->>>>>>> Stashed changes
-  });
-=======
+  containerRodape: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    width: '100%',
+    height: 75,
+  },
+
   containerRodape: {
     flexDirection: "row",
     alignItems: "center",
@@ -128,7 +107,23 @@ const styles = StyleSheet.create({
     height: 50,
     bottom: 400,
   },
+
+  Circulo: {
+    width: 300,
+    height: 300,
+    borderRadius: 145,
+    borderWidth: 10,
+    borderColor: 'chartreuse',
+  },
+
+  descricao: {
+    fontSize: 23,
+    fontStyle: 'italic',
+    borderBottomWidth: 2,
+    borderColor: 'black',
+
+  }
 });
->>>>>>> 5a99d2a5d17069901408ff9a03117e71616b882a
+
 
 export default styles;
