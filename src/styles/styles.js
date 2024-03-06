@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
                     width: '100%',
                     height:75,
                   },
+<<<<<<< Updated upstream
                   Circulo: {
                     width: 300,
                     height: 300,
@@ -89,6 +90,10 @@ const styles = StyleSheet.create({
                     borderColor: 'black',
                 
                   }
+=======
+
+                  
+>>>>>>> Stashed changes
   });
 
   export default styles;

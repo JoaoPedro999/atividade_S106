@@ -40,8 +40,30 @@ const styles = StyleSheet.create({
     height: 50,
     bottom: 400,
   },
+<<<<<<< Updated upstream
  
 
+=======
+
+  imagem: {
+    width: 300,
+    height: 300,
+    borderRadius: 145,
+    borderWidth: 10,
+    borderColor: 'chartreuse',
+
+alignItems: 'center'
+  },
+  descricao: {
+    fontSize: 30,
+    fontStyle: 'italic',
+    borderBottomWidth: 2,
+    borderColor: 'black'
+    
+
+  }
+>>>>>>> Stashed changes
 });
+
 
 export default styles;
