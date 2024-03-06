@@ -108,6 +108,14 @@ const styles = StyleSheet.create({
     bottom: 400,
   },
 
+  boxcentral: {
+    width: 300,
+    height: 200,
+    oppacity: 0.2,
+    backgroundColor: 'white',
+    padding: 15,
+    borderRadius: 20,
+  },
   Circulo: {
     width: 300,
     height: 300,
@@ -122,7 +130,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderColor: 'black',
 
-  }
+  },
 });
 
 
