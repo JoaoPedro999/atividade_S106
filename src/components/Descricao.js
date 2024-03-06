@@ -11,22 +11,22 @@ const Descricao = () => {
     const imagecircular = { uri: 'https://wallpapercave.com/wp/wp3219866.jpg' }
 
 
-    return (
-        // Componente View representa um contêiner para organizar outros componentes
-        <View style={styles.container}>
+//     return (
+//         // Componente View representa um contêiner para organizar outros componentes
+//         <View style={styles.container}>
 
 
-            {/* Texto exibido na tela com o estilo definido em styles.titulo */}
-            <Text style={styles.titulo}>Sobre</Text>
+//             {/* Texto exibido na tela com o estilo definido em styles.titulo */}
+//             <Text style={styles.titulo}>Sobre</Text>
 
-            <Image source={imagecircular} style={styles.Ciruculo} />
+//             <Image source={imagecircular} style={styles.Ciruculo} />
 
 
-            <Text style={styles.descricao}>Este site é sobre florestas, essa imagem mostra uma floresta</Text>
+//             <Text style={styles.descricao}>Este site é sobre florestas, essa imagem mostra uma floresta</Text>
 
-        </View>
-    );
-}
+//         </View>
+//     );
+// }
 
 export default Descricao;
 
