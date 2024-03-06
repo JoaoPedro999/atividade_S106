@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
     alignItems: "center",
+    justifyContent: "center",
   },
 
   body: {
@@ -110,7 +111,7 @@ const styles = StyleSheet.create({
 
   boxcentral: {
     width: 300,
-    height: 200,
+    height: 175,
     oppacity: 0.2,
     backgroundColor: 'white',
     padding: 15,
