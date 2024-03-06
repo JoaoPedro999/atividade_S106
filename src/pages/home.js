@@ -9,7 +9,7 @@ function Home() {
 
    return (
     <View style={styles.container}>
-      <ImageBackground source={require('../assets/images/fundoHome.jpg')} style={styles.body} >
+      <ImageBackground source={require('../assets/images/fundo.jpg')} style={styles.body} >
       <HeaderPrincipal/>
       <ContainerHome/>
       <Rodape/>
