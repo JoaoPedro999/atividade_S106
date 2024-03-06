@@ -1,33 +1,37 @@
-// Importa as bibliotecas necessárias do React e do React Native
 import React from 'react';
-import { View, Text, TextInput } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } from 'react-native';
+import styles from '../../styles/styleforms'; // Importa o arquivo de estilo
+import { useNavigation } from '@react-navigation/native';
 
-// Importa os estilos definidos externamente no arquivo stylescomponent
-import styles from '../../styles/styles';
+export default function Submenu() { // Alteração aqui: export default function Login()
 
-// Define um componente funcional chamado Componentform
-const Contato= () => {
+  const navigation = useNavigation();
+
   return (
-    // Componente View representa um contêiner para organizar outros componentes
-    <View style={styles.body}>
-      {/* Componente View para agrupar os TextInput relacionados ao formulário */}
-      <View>
-        {/* TextInput para o nome do usuário com estilo definido em styles.inputname */}
-        <TextInput style={styles.inputname} placeholder="Digite seu Nome" />
-        
-        {/* TextInput para o e-mail do usuário com estilo definido em styles.inputname */}
-        <TextInput style={styles.inputname} placeholder="Digite seu E-mail" />
-        
-        {/* TextInput para a senha do usuário com estilo definido em styles.inputname,
-             e configurado para ocultar o texto digitado (senha) */}
-        <TextInput
-          style={styles.inputname}
-          placeholder="Mensagem"
-        />
-      </View>
-    </View>
-  );
-};
 
-// Exporta o componente para ser utilizado em outros arquivos
-export default Contato;
+        <View style={styles.submenu}>
+          <Text style={{fontSize: 25, fontWeight: 'bold', }}>Contato</Text>
+            <View style={{gap: 10,}} >
+                  <TextInput
+                  placeholder='Digite seu Nome'
+                  style={styles.input}
+                  />
+                  <TextInput
+                  placeholder='Digite seu Email'
+                  style={styles.input}
+                  />
+                    <TextInput 
+                  placeholder='Mensagem'
+                  style={[styles.input, {height:100 }]}
+                  />
+                  <Button
+                  placeholder='Enviar'
+                  title='Enviar'
+                  onPress={() => navigation.navigate("Home")} 
+                  color='black'
+                  /> 
+                 </View>
+      </View>
+  );
+}
