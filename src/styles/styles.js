@@ -116,12 +116,13 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 20,
   },
-  Circulo: {
+  imagecirculo: {
     width: 300,
     height: 300,
     borderRadius: 145,
     borderWidth: 10,
     borderColor: 'chartreuse',
+    marginBottom: '10%'
   },
 
   descricao: {
