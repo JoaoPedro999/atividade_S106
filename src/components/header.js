@@ -21,6 +21,12 @@ import { useNavigation } from '@react-navigation/native';
       <View style={{backgroundColor: 'black', width: 1, height: '100%'}}></View>
       <View style={styles.Buttons}>
       <TouchableOpacity
+      onPress={() => navigation.navigate("Home")} 
+      >
+        <Text>Home</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
       onPress={() => navigation.navigate("Login")} 
       >
         <Text>Login</Text>
