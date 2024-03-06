@@ -74,6 +74,21 @@ const styles = StyleSheet.create({
                     width: '100%',
                     height:75,
                   },
+                  Circulo: {
+                    width: 300,
+                    height: 300,
+                    borderRadius: 145,
+                    borderWidth: 10,
+                    borderColor: 'chartreuse',
+                  },
+                
+                  descricao: {
+                    fontSize: 23,
+                    fontStyle: 'italic',
+                    borderBottomWidth: 2,
+                    borderColor: 'black',
+                
+                  }
   });
 
   export default styles;
