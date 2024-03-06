@@ -50,14 +50,6 @@ const styles = StyleSheet.create({
                   textAlign: 'center',
                   alignItems: 'center',
                   },
-                  
-                boxcentral: {
-                    width: 250,
-                    height: 200,
-                    borderColor: 'white',
-                    borderWidth: 2,
-                    color: 'white',
-                },
 
                 boxcentralBlog: {
                   width: '100%',
