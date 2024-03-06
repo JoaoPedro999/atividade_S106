@@ -98,6 +98,14 @@ const styles = StyleSheet.create({
     height: 50,
     bottom: 400,
   },
+  boxcentral: {
+    width: 300,
+    height: 200,
+    oppacity: 0.2,
+    backgroundColor: 'white',
+    padding: 15,
+    borderRadius: 20,
+  }
 });
 
 export default styles;
