@@ -13,8 +13,10 @@ export default function Login() { // Alteração aqui: export default function L
       <HeaderPrincipal/>
       <ImageBackground 
         style={styles.body}
-        source={require('../assets/images/fundo.jpg')}>
+        source={require('../assets/images/fundologin.jpg')}>
+          <View style={styles.containercorpo}>
           <Submenu/>
+          </View>
         </ImageBackground>
         <Rodape/>
       </View>

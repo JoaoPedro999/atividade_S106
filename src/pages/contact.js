@@ -3,6 +3,7 @@ import { Button, Text, View, TextInput, ImageBackground } from "react-native";
 import styles from "../styles/styleforms";
 import HeaderPrincipal from "../components/header";
 import Contato from "../components/Contato/contactform";
+import Rodape from "../components/rodape";
 
 function Contact() {
   return (
@@ -13,7 +14,10 @@ function Contact() {
         source={require("../assets/images/fundo.jpg")}
       >
         <HeaderPrincipal />
+        <View style={styles.containercorpo}>
         <Contato />
+        </View>
+        <Rodape/>
       </ImageBackground>
     </View>
   );

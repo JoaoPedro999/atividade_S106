@@ -71,12 +71,9 @@ const styles = StyleSheet.create({
     height: 75,
   },
 
-  containerRodape: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "flex-start",
-    width: "100%",
-    height: 75,
+  containercorpo: {
+    flex: 1,
+    justifyContent: 'center',
   },
   text: {
     color: "white",
