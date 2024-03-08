@@ -1,4 +1,4 @@
-import { Button, Text, View, TextInput, ImageBackground } from "react-native-web";
+import { Button, Text, View, TextInput, ImageBackground } from "react-native";
 // Importa estilos definidos externamente no arquivo stylescomponent
 import styles from "../styles/styleforms";
 import HeaderPrincipal from "../components/header";
