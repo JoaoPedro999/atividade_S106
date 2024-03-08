@@ -54,15 +54,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  boxcentralBlog: {
-    width: "100%",
-    height: 100,
-    backgroundColor: "black",
-    opacity: 0.5,
-    justifyContent: "center",
-  },
-
-
   containerRodape: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -109,7 +100,7 @@ const styles = StyleSheet.create({
   boxcentral: {
     width: 300,
     height: 175,
-    oppacity: 0.2,
+    opacity: "80%",
     backgroundColor: 'white',
     padding: 15,
     borderRadius: 20,
