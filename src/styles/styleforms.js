@@ -20,7 +20,17 @@ const styles = StyleSheet.create({
           height: 245,
           padding: 30,
           backgroundColor: 'white',
-          borderRadius: 10,
+          borderRadius: 40,
+          alignItems: 'center',
+          gap: 25,
+          opacity: 0.7,
+        },
+
+        submenucontact: {
+          height: 365,
+          padding: 40,
+          backgroundColor: 'white',
+          borderRadius: 40,
           alignItems: 'center',
           gap: 25,
           opacity: 0.7,

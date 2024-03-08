@@ -10,7 +10,7 @@ export default function Submenu() { // Alteração aqui: export default function
 
   return (
 
-        <View style={styles.submenu}>
+        <View style={styles.submenucontact}>
           <Text style={{fontSize: 25, fontWeight: 'bold', }}>Contato</Text>
             <View style={{gap: 10,}} >
                   <TextInput
