@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   boxcentral: {
     width: 300,
     height: 175,
-    opacity: "80%",
+    
     backgroundColor: 'white',
     padding: 15,
     borderRadius: 20,
