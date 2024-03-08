@@ -17,13 +17,14 @@ function Sobre() {
     <View style={styles.container}>
         <HeaderPrincipal/>
 
+<View style={styles.containercorpo}>
       {/* Texto exibido na tela com o estilo definido em styles.titulo */}
       <Text style={styles.titulo}>Sobre</Text>
 
       <Image source={imagecircular} style={styles.imagecirculo} />
 
       <Text style={styles.descricao}>Este site é sobre florestas, essa imagem mostra uma floresta</Text>
-     
+     </View>
     <Rodape/>
     </View>
     
