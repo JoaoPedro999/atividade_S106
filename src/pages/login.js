@@ -4,21 +4,27 @@ import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } fro
 import styles from '../styles/styles'; // Importa o arquivo de estilo
 import HeaderPrincipal from '../components/header'; // Cabeçalho
 import Rodape from '../components/rodape'; // Rodapé
-import Submenu from '../components/Login/submenu'; //Corpo -- Submenu
+import Submenu from '../components/Login/submenu'; // Corpo - Submenu
 
-export default function Login() { // Alteração aqui: export default function Login()
+export default function Login() { // Define o componente Login como padrão para exportação
 
   return (
+    // Define a estrutura de visualização da página de login
     <View style={styles.container}>
+      {/* Renderiza o cabeçalho da página */}
       <HeaderPrincipal/>
+      {/* Utiliza uma imagem de fundo para o corpo da página de login */}
       <ImageBackground 
         style={styles.body}
         source={require('../assets/images/fundologin.jpg')}>
+          {/* Define um contêiner para organizar o corpo da página */}
           <View style={styles.containercorpo}>
-          <Submenu/>
+            {/* Renderiza o submenu da página de login */}
+            <Submenu/>
           </View>
         </ImageBackground>
-        <Rodape/>
-      </View>
+      {/* Renderiza o rodapé da página */}
+      <Rodape/>
+    </View>
   );
 }

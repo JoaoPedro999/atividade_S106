@@ -6,7 +6,6 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
     alignItems: "center",
-  
   },
 
   body: {
@@ -23,11 +22,13 @@ const styles = StyleSheet.create({
     width: "100%",
     height: 75,
   },
+
   logo: {
     flexDirection: "row",
     justifyContent: "center",
     width: 150,
   },
+
   imagelogo: {
     width: 125,
     height: 32,
@@ -55,17 +56,17 @@ const styles = StyleSheet.create({
   },
 
   containerRodape: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
-    width: '100%',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "flex-start",
+    width: "100%",
     height: 75,
   },
 
   containercorpo: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   text: {
     color: "white",
@@ -101,8 +102,8 @@ const styles = StyleSheet.create({
   boxcentral: {
     width: 300,
     height: 175,
-    
-    backgroundColor: 'white',
+    opacity: 0.80,
+    backgroundColor: "white",
     padding: 15,
     borderRadius: 20,
   },
@@ -111,18 +112,16 @@ const styles = StyleSheet.create({
     height: 300,
     borderRadius: 145,
     borderWidth: 10,
-    borderColor: 'chartreuse',
-    marginBottom: '10%'
+    borderColor: "chartreuse",
+    marginBottom: "10%",
   },
 
   descricao: {
     fontSize: 23,
-    fontStyle: 'italic',
+    fontStyle: "italic",
     borderBottomWidth: 2,
-    borderColor: 'black',
-
+    borderColor: "black",
   },
 });
-
 
 export default styles;
